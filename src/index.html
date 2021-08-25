@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app">
+    <!--v-text 是用在属性上的指令-->
+    <p v-text="username"></p>
+    <p>gender :  {{gender}} </p>
+    <p v-html="info"></p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script>
+
+    let vm = new Vue({
+      el: '#app',
+      data: {
+        username: 'Henry',
+        gender: 'male',
+        info : '<h4 style= "color: red; font-weight: bold;"> Welcome to Vue </h4> '
+      }
+    })
+  </script>
+
+
+</body>
+</html>

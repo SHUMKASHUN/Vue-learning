@@ -1,0 +1,23 @@
+{
+  "name": "vue-learning",
+  "version": "1.0.0",
+  "description": "Record VUE Learning for FYP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHUMKASHUN/Vue-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHUMKASHUN/Vue-learning/issues"
+  },
+  "homepage": "https://github.com/SHUMKASHUN/Vue-learning#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
